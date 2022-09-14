@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    border: 0px solid;
+    
+}
+div{
+    cursor:pointer;
+    border: 1px solid;
+}
+.sport{
+    border-bottom: 0px;   
+}
+.fruit{
+    border-width: 1px 0px 0px 0px;
+}
+.player{
+    border-bottom: 0px;
+}
+.topic{
+    border-left: 0px;
+    border-right: 0px;
+}
+#two{
+    list-style-type: square;
+}
+#three{
+    list-style-type: circle;
+}
+#five{
+    list-style-type: Upper-roman;
+}
+#six{
+    list-style-type: lower-alpha;
+}
